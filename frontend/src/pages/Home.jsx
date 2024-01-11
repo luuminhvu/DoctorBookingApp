@@ -1,3 +1,6 @@
+import heroImg01 from '../assets/images/hero-img01.png';
+import heroImg02 from '../assets/images/hero-img02.png';
+import heroImg03 from '../assets/images/hero-img03.png';
 const Home = () => {
     return (
         <>
@@ -37,6 +40,15 @@ const Home = () => {
                                     <span className="w-[100px] h-2 bg-irisBlueColor rounded-full block mt-[-14px]"></span>
                                     <p className="text__para">Patient Satisfaction</p>
                                 </div>
+                            </div>
+                        </div>
+                        <div className="flex gap-[30px] justify-end">
+                            <div>
+                                <img className="w-full" src={heroImg01} alt="" />
+                            </div>
+                            <div className="mt-[30px]">
+                                <img src={heroImg02} alt="" className="w-full mb-[30px]" />
+                                <img src={heroImg03} alt="" className="w-full" />
                             </div>
                         </div>
                     </div>
